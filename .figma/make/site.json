@@ -1,0 +1,10 @@
+{
+  "description": "Connects students with expert guidance for studying abroad, offering services from university selection to visa support, ensuring a seamless educational journey.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

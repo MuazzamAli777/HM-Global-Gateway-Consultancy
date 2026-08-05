@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --color-navy: #0B1F4D;
+  --color-navy-light: #1a3470;
+  --color-gold: #D4AF37;
+  --color-gold-light: #e8c84a;
+  --color-sky: #4FA3FF;
+  --font-poppins: 'Poppins', sans-serif;
+  --font-inter: 'Inter', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #1a1a2e;
+  background: #ffffff;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f0f0f0;
+}
+::-webkit-scrollbar-thumb {
+  background: #0B1F4D;
+  border-radius: 3px;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-12px); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+@keyframes pulse-ring {
+  0% { transform: scale(0.8); opacity: 1; }
+  100% { transform: scale(2.4); opacity: 0; }
+}
+
+.animate-fade-up {
+  animation: fadeInUp 0.7s ease forwards;
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+.animate-fade {
+  animation: fadeIn 0.5s ease forwards;
+}
+
+.hero-gradient {
+  background: linear-gradient(135deg, rgba(11,31,77,0.92) 0%, rgba(11,31,77,0.75) 50%, rgba(212,175,55,0.25) 100%);
+}
+
+.gold-gradient {
+  background: linear-gradient(135deg, #D4AF37 0%, #f0d060 50%, #D4AF37 100%);
+}
+
+.navy-gradient {
+  background: linear-gradient(135deg, #0B1F4D 0%, #1a3470 100%);
+}
+
+.glass {
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+.glass-dark {
+  background: rgba(11,31,77,0.15);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(11,31,77,0.1);
+}
+
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-hover:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 24px 48px rgba(11,31,77,0.15);
+}
+
+.btn-gold {
+  background: linear-gradient(135deg, #D4AF37, #e8c84a);
+  color: #0B1F4D;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(212,175,55,0.4);
+}
+.btn-gold:hover {
+  background: #0B1F4D;
+  color: #D4AF37;
+  box-shadow: 0 6px 20px rgba(11,31,77,0.3);
+}
+
+.btn-navy {
+  background: #0B1F4D;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+.btn-navy:hover {
+  background: #D4AF37;
+  color: #0B1F4D;
+}
+
+.section-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #0B1F4D;
+}
+
+.gold-text {
+  color: #D4AF37;
+}
+
+.country-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  cursor: pointer;
+}
+.country-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 30px 60px rgba(11,31,77,0.2);
+}
+.country-card:hover .country-overlay {
+  opacity: 1;
+}
+
+.country-overlay {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.nav-link {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  transition: color 0.2s ease;
+  position: relative;
+}
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #D4AF37;
+  transition: width 0.3s ease;
+}
+.nav-link:hover::after,
+.nav-link.active::after {
+  width: 100%;
+}
+.nav-link:hover {
+  color: #D4AF37;
+}
+
+.whatsapp-pulse::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background: #25d366;
+  animation: pulse-ring 2s ease-out infinite;
+}
+
+.tab-active {
+  background: #0B1F4D;
+  color: #D4AF37;
+}
+
+.tab-inactive {
+  background: transparent;
+  color: #0B1F4D;
+}
+
+input, textarea, select {
+  font-family: 'Inter', sans-serif;
+}
+
+.prose-custom p {
+  color: #4a5568;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
