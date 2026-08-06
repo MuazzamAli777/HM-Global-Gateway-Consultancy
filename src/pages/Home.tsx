@@ -114,7 +114,7 @@ export default function Home() {
         <AnimSection className="text-center mb-12">
           <div className="text-[#D4AF37] font-poppins font-semibold text-sm uppercase tracking-widest mb-2">Destinations</div>
           <h2 className="section-title text-3xl sm:text-4xl mb-4">Study in Your Dream Country</h2>
-          <p className="text-gray-500 max-w-xl mx-auto">Choose from 6 premier study destinations, each offering unique opportunities for your academic journey.</p>
+          <p className="text-gray-500 max-w-xl mx-auto">Choose from 5 premier study destinations, each offering unique opportunities for your academic journey.</p>
         </AnimSection>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -125,7 +125,7 @@ export default function Home() {
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0B1F4D]/90 via-[#0B1F4D]/40 to-transparent" />
                 <div className="country-overlay absolute inset-0 bg-[#D4AF37]/20" />
                 <div className="absolute bottom-0 left-0 right-0 p-5">
-                  <div className="text-3xl mb-1">{country.flag}</div>
+                  <div className="text-3xl text-emerald-50 mb-1">{country.flag}</div>
                   <h3 className="text-white font-poppins font-bold text-xl">{country.name}</h3>
                   <p className="text-white/75 text-xs font-inter">{country.tagline}</p>
                   <div className="mt-3 inline-flex items-center gap-1 text-[#D4AF37] text-xs font-poppins font-semibold">

@@ -24,7 +24,7 @@ export default function Testimonials() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 py-16">
         {/* Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-16">
-          {[["500+", "Students Placed", "🎓"], ["95%", "Visa Success", "✅"], ["6", "Countries", "🌍"], ["50+", "Universities", "🏛️"]].map(([num, label, icon]) => (
+          {[["20+", "Students Placed", "🎓"], ["95%", "Visa Success", "✅"], ["5", "Countries", "🌍"], ["50+", "Universities", "🏛️"]].map(([num, label, icon]) => (
             <div key={label} className="text-center bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
               <div className="text-3xl mb-2">{icon}</div>
               <div className="font-poppins font-bold text-3xl text-[#D4AF37]">{num}</div>

@@ -39,7 +39,7 @@ function Layout() {
           <Route path="/scholarships" element={<Scholarships />} />
           <Route path="/visa" element={<Visa />} />
           <Route path="/universities" element={<Universities />} />
-          <Route path="/blog" element={<Blog />} />
+          {/* <Route path="/blog" element={<Blog />} /> */}
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/faq" element={<FAQ />} />

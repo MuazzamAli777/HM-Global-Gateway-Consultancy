@@ -2,15 +2,15 @@ import { useState } from "react"
 import { Link } from "react-router-dom"
 
 const SCHOLARSHIPS = [
-  { name: "GKS (Global Korea Scholarship)", country: "🇰🇷 South Korea", type: "Government", amount: "Fully Funded", deadline: "March 2026", coverage: "Tuition + Living + Airfare + Health Insurance", eligibility: "Undergraduate/Graduate students, good academic record" },
-  { name: "DAAD Scholarship", country: "🇩🇪 Germany", type: "Government", amount: "€750–€1,200/month", deadline: "October 2025", coverage: "Monthly stipend + travel allowance + health insurance", eligibility: "Bachelor's degree, relevant field of study, language proficiency" },
-  { name: "Chevening Scholarship", country: "🇬🇧 United Kingdom", type: "Government", amount: "Fully Funded", deadline: "November 2025", coverage: "Tuition + Living + Flights + Visa fees", eligibility: "2+ years work experience, leadership potential" },
-  { name: "Deutschland Stipendium", country: "🇩🇪 Germany", type: "Merit", amount: "€300/month", deadline: "June 2026", coverage: "Monthly stipend for excellent students", eligibility: "Outstanding academic achievement, enrolled in German university" },
+  { name: "GKS (Global Korea Scholarship)", country: "🇰🇷 South Korea", type: "Government", amount: "Fully Funded", deadline: "Annual Intake", coverage: "Tuition + Living + Airfare + Health Insurance", eligibility: "Undergraduate/Graduate students, good academic record" },
+  { name: "DAAD Scholarship", country: "🇩🇪 Germany", type: "Government", amount: "€750–€1,200/month", deadline: "Annual Intake", coverage: "Monthly stipend + travel allowance + health insurance", eligibility: "Bachelor's degree, relevant field of study, language proficiency" },
+  { name: "Chevening Scholarship", country: "🇬🇧 United Kingdom", type: "Government", amount: "Fully Funded", deadline: "Annual Intake", coverage: "Tuition + Living + Flights + Visa fees", eligibility: "2+ years work experience, leadership potential" },
+  { name: "Deutschland Stipendium", country: "🇩🇪 Germany", type: "Merit", amount: "€300/month", deadline: "Annual Intake", coverage: "Monthly stipend for excellent students", eligibility: "Outstanding academic achievement, enrolled in German university" },
   { name: "Keimyung University Scholarship", country: "🇰🇷 South Korea", type: "University", amount: "50–100% Tuition", deadline: "Rolling", coverage: "Partial to full tuition waiver", eligibility: "Good CGPA, recommended by HM Global Gateway" },
   { name: "Near East University Scholarship", country: "🇨🇾 Cyprus", type: "University", amount: "25–75% Tuition", deadline: "Rolling", coverage: "Tuition fee reduction", eligibility: "Academic merit, interview performance" },
-  { name: "OeAD Government Scholarship", country: "🇦🇹 Austria", type: "Government", amount: "€1,050/month", deadline: "February 2026", coverage: "Monthly stipend + accommodation contribution", eligibility: "Research scholars and postgraduate students" },
-  { name: "University of Bologna Excellence Award", country: "🇮🇹 Italy", type: "Merit", amount: "€11,000/year", deadline: "April 2026", coverage: "Tuition + partial living costs", eligibility: "Top academic achievers, specific programs" },
-  { name: "GREAT Scholarship", country: "🇬🇧 United Kingdom", type: "Government", amount: "£10,000 min", deadline: "May 2026", coverage: "Towards tuition fees", eligibility: "Pakistani students, specific UK universities" },
+  { name: "OeAD Government Scholarship", country: "🇦🇹 Austria", type: "Government", amount: "€1,050/month", deadline: "Annual Intake", coverage: "Monthly stipend + accommodation contribution", eligibility: "Research scholars and postgraduate students" },
+  { name: "University of Bologna Excellence Award", country: "🇮🇹 Italy", type: "Merit", amount: "€11,000/year", deadline: "Annual Intake", coverage: "Tuition + partial living costs", eligibility: "Top academic achievers, specific programs" },
+  { name: "GREAT Scholarship", country: "🇬🇧 United Kingdom", type: "Government", amount: "£10,000 min", deadline: "Annual Intake", coverage: "Towards tuition fees", eligibility: "Pakistani students, specific UK universities" },
 ]
 
 const TYPES = ["All", "Government", "University", "Merit"]

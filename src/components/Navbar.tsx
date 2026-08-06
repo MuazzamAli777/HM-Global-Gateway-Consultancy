@@ -2,15 +2,17 @@ import { useState, useEffect } from "react"
 import { Link, useLocation } from "react-router-dom"
 
 const NAV_LINKS = [
+  
   { label: "Home", path: "/" },
   { label: "Countries", path: "/countries" },
   { label: "Universities", path: "/universities" },
   { label: "Services", path: "/services" },
   { label: "Scholarships", path: "/scholarships" },
   { label: "Visa", path: "/visa" },
-  { label: "Blog", path: "/blog" },
+  // { label: "Blog", path: "/blog" },
   { label: "About", path: "/about" },
   { label: "Contact", path: "/contact" },
+
 ]
 
 export default function Navbar() {
