@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-const logo = new URL("./logo.png", import.meta.url).href
+const logo = "/logo.png"
 
 export default function Footer() {
   return (

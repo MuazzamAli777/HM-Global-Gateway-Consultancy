@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import { Link, useLocation } from "react-router-dom"
 
-const logo = new URL("../components/logo.png", import.meta.url).href
+const logo = "/logo.png"
 
 const NAV_LINKS = [
   
