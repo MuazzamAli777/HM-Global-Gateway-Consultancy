@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from "react"
 import { Link } from "react-router-dom"
 import { COUNTRIES, SERVICES, WHY_CHOOSE, TESTIMONIALS } from "../data/data"
+import { FaFacebookF, FaInstagram, FaTiktok } from "react-icons/fa";
 
 function useInView(threshold = 0.1) {
   const ref = useRef<HTMLDivElement>(null)
@@ -30,6 +31,7 @@ export default function Home() {
     return () => clearInterval(t)
   }, [])
 
+  
   return (
     <div>
       {/* HERO */}
