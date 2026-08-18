@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import { Link, useLocation } from "react-router-dom"
 
-const logo = "/hm-global-logo.png"
+const logo = "/profile_photo_compressed.jpg"
 
 const NAV_LINKS = [
   
