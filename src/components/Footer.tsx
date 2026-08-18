@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom"
 
+const logo = new URL("./logo.png", import.meta.url).href
+
 export default function Footer() {
   return (
     <footer className="bg-[#0B1F4D] text-white">
@@ -9,7 +11,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-3 mb-4">
              <img
-  src="/logo.png"
+  src={logo}
   alt="HM Global Gateway Consultancy"
   className="w-14 h-14 rounded-full object-cover border-2 border-[#D4AF37] shadow-lg"
 />
