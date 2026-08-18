@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react"
 import { Link, useLocation } from "react-router-dom"
 
+const logo = new URL("../components/logo.png", import.meta.url).href
+
 const NAV_LINKS = [
   
   { label: "Home", path: "/" },
@@ -41,7 +43,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
             <img
-  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS20cLxcbgZ4ZwQWh65nqxO4WQKeqc-IM29f9ePQ17ipA&s=10"
+  src={logo}
   alt="HM Global Gateway Consultancy"
   className="w-14 h-14 rounded-full object-cover border-2 border-[#D4AF37] shadow-lg"
 />
