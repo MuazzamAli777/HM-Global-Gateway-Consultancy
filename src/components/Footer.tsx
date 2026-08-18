@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-const logo = "/logo.png"
+const logo = "/hm-global-logo.png"
 
 export default function Footer() {
   return (

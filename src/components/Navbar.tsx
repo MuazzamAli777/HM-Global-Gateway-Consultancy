@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import { Link, useLocation } from "react-router-dom"
 
-const logo = "/logo.png"
+const logo = "/hm-global-logo.png"
 
 const NAV_LINKS = [
   
