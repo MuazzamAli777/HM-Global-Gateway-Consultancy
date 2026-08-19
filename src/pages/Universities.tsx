@@ -21,7 +21,7 @@ export default function Universities() {
       <div className="navy-gradient text-white py-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <div className="text-[#D4AF37] font-poppins font-semibold text-sm uppercase tracking-widest mb-3">Partner Institutions</div>
-          <h1 className="font-poppins font-bold text-4xl sm:text-5xl mb-4">University Directory</h1>
+          <h1 className="font-poppins font-bold text-4xl sm:text-5xl mb-4">Universities Abroad for Pakistani Students</h1>
           <p className="text-white/75 text-lg max-w-2xl mx-auto">Browse our network of 50+ partner universities across 6 countries.</p>
         </div>
       </div>
@@ -51,7 +51,7 @@ export default function Universities() {
           {filtered.map((uni) => (
             <div key={uni.name + uni.country} className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl card-hover border border-gray-100">
               <div className="h-40 bg-gray-100 overflow-hidden">
-                <img src={uni.image} alt={uni.name} className="w-full h-full object-cover" />
+                <img src={uni.image} alt={`${uni.name} in ${uni.country}`} loading="lazy" decoding="async" className="w-full h-full object-cover" />
               </div>
               <div className="p-4">
                 <div className="flex items-center justify-between mb-2">

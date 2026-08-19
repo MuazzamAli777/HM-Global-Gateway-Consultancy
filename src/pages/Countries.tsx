@@ -8,8 +8,8 @@ export default function Countries() {
       <div className="navy-gradient text-white py-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <div className="text-[#D4AF37] font-poppins font-semibold text-sm uppercase tracking-widest mb-3">Study Destinations</div>
-          <h1 className="font-poppins font-bold text-4xl sm:text-5xl mb-4">Choose Your Country</h1>
-          <p className="text-white/75 text-lg max-w-2xl mx-auto">Explore our 6 partner destinations and find the perfect country for your international education journey.</p>
+          <h1 className="font-poppins font-bold text-4xl sm:text-5xl mb-4">Study Abroad Destinations for Pakistani Students</h1>
+          <p className="text-white/75 text-lg max-w-2xl mx-auto">Explore our partner destinations and find the right country for your international education journey.</p>
         </div>
       </div>
 
@@ -18,7 +18,7 @@ export default function Countries() {
           {COUNTRIES.map((country) => (
             <Link key={country.id} to={`/countries/${country.id}`} className="group block rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
               <div className="h-52 relative overflow-hidden">
-                <img src={country.image} alt={country.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                <img src={country.image} alt={`${country.name} university study destination`} loading="lazy" decoding="async" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0B1F4D]/80 to-transparent" />
                 <div className="absolute bottom-4 left-4 text-white">
                   <div className="text-4xl">{country.flag}</div>

@@ -20,12 +20,12 @@ export default function CountryDetail() {
     <div className="pt-20">
       {/* Hero */}
       <div className="relative h-80 sm:h-96 overflow-hidden">
-        <img src={country.image} alt={country.name} className="w-full h-full object-cover" />
+        <img src={country.image} alt={`Study in ${country.name} from Pakistan`} fetchPriority="high" decoding="async" className="w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-[#0B1F4D]/90 via-[#0B1F4D]/50 to-[#0B1F4D]/20" />
         <div className="absolute inset-0 flex items-end pb-10 px-6 max-w-7xl mx-auto">
           <div className="text-white">
             <div className="text-5xl mb-2">{country.flag}</div>
-            <h1 className="font-poppins font-bold text-4xl sm:text-5xl mb-1">{country.name}</h1>
+            <h1 className="font-poppins font-bold text-4xl sm:text-5xl mb-1">Study in {country.name} from Pakistan</h1>
             <p className="text-[#D4AF37] font-poppins font-medium">{country.tagline}</p>
           </div>
         </div>
@@ -119,7 +119,7 @@ export default function CountryDetail() {
               {country.universities.map((uni) => (
                 <div key={uni.name} className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl card-hover border border-gray-100">
                   <div className="h-44 bg-gray-100 overflow-hidden">
-                    <img src={uni.image} alt={uni.name} className="w-full h-full object-cover" />
+                    <img src={uni.image} alt={`${uni.name} campus in ${country.name}`} loading="lazy" decoding="async" className="w-full h-full object-cover" />
                   </div>
                   <div className="p-5">
                     <span className="bg-[#D4AF37]/10 text-[#D4AF37] text-xs font-poppins font-semibold px-2 py-0.5 rounded-full">{uni.ranking}</span>

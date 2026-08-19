@@ -63,7 +63,9 @@ export default function About() {
           <div className="relative">
             <img
               src="https://images.unsplash.com/photo-1627556704353-016baeb12c79?w=600&h=400&fit=crop&auto=format"
-              alt="Students graduating"
+              alt="Students graduating from an international university"
+              loading="lazy"
+              decoding="async"
               className="rounded-2xl shadow-xl w-full object-cover h-72"
             />
             <div className="absolute -bottom-4 -left-4 bg-[#D4AF37] text-[#0B1F4D] rounded-2xl p-5 shadow-lg">
@@ -93,7 +95,7 @@ export default function About() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-16 justify-items-center ">
           {TEAM.map((member) => (
             <div key={member.name} className="text-center bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-lg card-hover">
-              <img src={member.photo} alt={member.name} className="w-24 h-24 rounded-full object-cover mx-auto mb-4 border-4 border-[#D4AF37]/30" />
+              <img src={member.photo} alt={`${member.name}, ${member.role} at HM Global Gateway`} loading="lazy" decoding="async" className="w-24 h-24 rounded-full object-cover mx-auto mb-4 border-4 border-[#D4AF37]/30" />
               <h3 className="font-poppins font-bold text-[#0B1F4D] mb-1">{member.name}</h3>
               <p className="text-[#D4AF37] text-xs font-poppins font-semibold mb-3">{member.role}</p>
               <p className="text-gray-500 text-xs leading-relaxed">{member.bio}</p>

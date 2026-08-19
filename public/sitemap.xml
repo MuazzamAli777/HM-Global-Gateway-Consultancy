@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://hm-global-gateway-consultancy.vercel.app/</loc><priority>1.0</priority></url>
+  <url><loc>https://hm-global-gateway-consultancy.vercel.app/countries/</loc><priority>0.9</priority></url>
+  <url><loc>https://hm-global-gateway-consultancy.vercel.app/countries/south-korea/</loc><priority>0.8</priority></url>
+  <url><loc>https://hm-global-gateway-consultancy.vercel.app/countries/germany/</loc><priority>0.8</priority></url>
+  <url><loc>https://hm-global-gateway-consultancy.vercel.app/countries/uk/</loc><priority>0.8</priority></url>
+  <url><loc>https://hm-global-gateway-consultancy.vercel.app/countries/italy/</loc><priority>0.8</priority></url>
+  <url><loc>https://hm-global-gateway-consultancy.vercel.app/countries/cyprus/</loc><priority>0.8</priority></url>
+  <url><loc>https://hm-global-gateway-consultancy.vercel.app/services/</loc><priority>0.7</priority></url>
+  <url><loc>https://hm-global-gateway-consultancy.vercel.app/scholarships/</loc><priority>0.7</priority></url>
+  <url><loc>https://hm-global-gateway-consultancy.vercel.app/visa/</loc><priority>0.7</priority></url>
+  <url><loc>https://hm-global-gateway-consultancy.vercel.app/universities/</loc><priority>0.7</priority></url>
+  <url><loc>https://hm-global-gateway-consultancy.vercel.app/about/</loc><priority>0.6</priority></url>
+  <url><loc>https://hm-global-gateway-consultancy.vercel.app/contact/</loc><priority>0.7</priority></url>
+  <url><loc>https://hm-global-gateway-consultancy.vercel.app/faq/</loc><priority>0.5</priority></url>
+  <url><loc>https://hm-global-gateway-consultancy.vercel.app/testimonials/</loc><priority>0.5</priority></url>
+</urlset>

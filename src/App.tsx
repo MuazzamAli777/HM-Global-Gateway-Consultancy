@@ -3,6 +3,7 @@ import { useEffect } from "react"
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
 import FloatingButtons from "./components/FloatingButtons"
+import SEO from "./components/SEO"
 import Home from "./pages/Home"
 import Countries from "./pages/Countries"
 import CountryDetail from "./pages/CountryDetail"
@@ -29,6 +30,7 @@ function Layout() {
 
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO />
       <Navbar />
       <main className="flex-1">
         <Routes>

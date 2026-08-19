@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef } from "react"
 import { Link } from "react-router-dom"
 import { COUNTRIES, SERVICES, WHY_CHOOSE, TESTIMONIALS } from "../data/data"
-import { FaFacebookF, FaInstagram, FaTiktok } from "react-icons/fa";
 
 function useInView(threshold = 0.1) {
   const ref = useRef<HTMLDivElement>(null)
@@ -72,7 +71,7 @@ export default function Home() {
               Your Dream. Our Guidance. Global Future.
             </div>
             <h1 className="font-poppins font-bold text-4xl sm:text-5xl lg:text-6xl leading-tight mb-6 animate-fade-up">
-              Study Abroad with{" "}
+              Study Abroad from Pakistan with{" "}
               <span className="text-[#D4AF37]">Confidence</span>
             </h1>
             <p className="text-lg text-white/85 mb-10 leading-relaxed font-inter animate-fade-up" style={{ animationDelay: "0.2s" }}>
@@ -123,7 +122,7 @@ export default function Home() {
           {COUNTRIES.map((country, i) => (
             <AnimSection key={country.id}>
               <Link to={`/countries/${country.id}`} className="country-card block h-64 shadow-lg">
-                <img src={country.image} alt={country.name} className="w-full h-full object-cover" />
+                <img src={country.image} alt={`${country.name} study abroad destination`} loading="lazy" decoding="async" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#0B1F4D]/90 via-[#0B1F4D]/40 to-transparent" />
                 <div className="country-overlay absolute inset-0 bg-[#D4AF37]/20" />
                 <div className="absolute bottom-0 left-0 right-0 p-5">
@@ -237,7 +236,7 @@ export default function Home() {
             <AnimSection key={uni.name}>
               <div className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl card-hover border border-gray-100">
                 <div className="h-40 bg-gray-100 overflow-hidden">
-                  <img src={uni.image} alt={uni.name} className="w-full h-full object-cover" />
+                  <img src={uni.image} alt={`${uni.name} campus in ${COUNTRIES[0].name}`} loading="lazy" decoding="async" className="w-full h-full object-cover" />
                 </div>
                 <div className="p-5">
                   <div className="inline-block bg-[#D4AF37]/10 text-[#D4AF37] text-xs font-poppins font-semibold px-2 py-0.5 rounded-full mb-2">
@@ -277,7 +276,7 @@ export default function Home() {
                   <div className="flex text-[#D4AF37] text-sm mb-4">{"★".repeat(t.rating)}</div>
                   <p className="text-gray-600 text-sm leading-relaxed mb-6 italic">"{t.text}"</p>
                   <div className="flex items-center gap-3">
-                    <img src={t.photo} alt={t.name} className="w-11 h-11 rounded-full object-cover bg-gray-200" />
+                    <img src={t.photo} alt={`${t.name}, student success story`} loading="lazy" decoding="async" className="w-11 h-11 rounded-full object-cover bg-gray-200" />
                     <div>
                       <div className="font-poppins font-semibold text-[#0B1F4D] text-sm">{t.name}</div>
                       <div className="text-gray-400 text-xs">{t.country} · {t.university}</div>

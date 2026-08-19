@@ -41,7 +41,7 @@ export default function Testimonials() {
               <div className="flex text-[#D4AF37] text-lg mb-4">{"★".repeat(t.rating)}</div>
               <p className="text-gray-600 text-sm leading-relaxed mb-6 italic">"{t.text}"</p>
               <div className="flex items-center gap-3">
-                <img src={t.photo} alt={t.name} className="w-12 h-12 rounded-full object-cover bg-gray-200 border-2 border-[#D4AF37]/30" />
+                <img src={t.photo} alt={`${t.name}, ${t.country} student testimonial`} loading="lazy" decoding="async" className="w-12 h-12 rounded-full object-cover bg-gray-200 border-2 border-[#D4AF37]/30" />
                 <div>
                   <div className="font-poppins font-semibold text-[#0B1F4D]">{t.name}</div>
                   <div className="text-[#D4AF37] text-xs font-poppins font-medium">{t.country}</div>
@@ -57,7 +57,7 @@ export default function Testimonials() {
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-16">
           {GALLERY.map((img, i) => (
             <div key={i} className="rounded-2xl overflow-hidden h-48 sm:h-56 group">
-              <img src={img} alt={`Student life ${i + 1}`} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+              <img src={img} alt={`Student life abroad photo ${i + 1}`} loading="lazy" decoding="async" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
             </div>
           ))}
         </div>
