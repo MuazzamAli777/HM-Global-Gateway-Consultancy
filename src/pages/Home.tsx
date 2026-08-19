@@ -43,7 +43,7 @@ export default function Home() {
         <div className="hero-gradient absolute inset-0" />
 
         {/* Floating elements */}
-        <div className="absolute top-32 right-10 lg:right-24 animate-float">
+        {/* <div className="absolute top-32 right-10 lg:right-24 animate-float">
           <div className="glass rounded-2xl p-4 text-white shadow-2xl">
             <div className="text-2xl mb-1">🎓</div>
             <div className="text-xs font-poppins font-semibold">95% Visa Success</div>
@@ -56,14 +56,14 @@ export default function Home() {
             <div className="text-xs font-poppins font-semibold">5 Countries</div>
             <div className="text-[10px] text-white/70">Partner destinations</div>
           </div>
-        </div>
-        <div className="absolute top-60 left-8 lg:left-16 animate-float" style={{ animationDelay: "0.8s" }}>
+        </div> */}
+        {/* <div className="absolute top-60 left-8 lg:left-16 animate-float" style={{ animationDelay: "0.8s" }}>
           <div className="glass rounded-2xl p-4 text-white shadow-2xl">
             <div className="text-2xl mb-1">🏛️</div>
             <div className="text-xs font-poppins font-semibold">50+ Universities</div>
             <div className="text-[10px] text-white/70">Experties in institutions</div>
           </div>
-        </div>
+        </div> */}
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 pt-28 pb-20 text-white">
           <div className="max-w-2xl">
