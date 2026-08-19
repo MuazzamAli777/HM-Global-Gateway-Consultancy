@@ -1,11 +1,25 @@
 import { Link } from "react-router-dom"
 
 const TEAM = [
-  { name: "Muhammad Hassan", role: "Founder & CEO", photo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&faces", bio: "10+ years in international education consultancy. Studied in South Korea, now dedicated to helping Pakistani students achieve the same dream." },
-  { name: "Aisha Nawaz", role: "Senior Visa Counselor", photo: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=200&h=200&fit=crop&faces", bio: "Former Embassy documentation specialist with 7 years of visa processing experience across 6 countries." },
-  { name: "Bilal Chaudhry", role: "UK & Germany Specialist", photo: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop&faces", bio: "Masters graduate from University of Manchester. Expert in UK and German university applications and scholarships." },
-  { name: "Sara Khan", role: "Scholarship Coordinator", photo: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop&faces", bio: "Dedicated to finding the best scholarship opportunities for every student profile. Has secured $2M+ in student funding." },
-]
+  {
+    name: "Muazzam Ali",
+    role: "Founder & CEO",
+    photo: "profile-photo.png",
+    bio: "Founder of HM Global Gateway with expertise in international student admissions, university applications, and visa guidance. Passionate about helping Pakistani students study abroad with transparent and reliable consultancy services."
+  },
+  {
+    name: "Ali Haider",
+    role: "Director",
+    photo: "haider.jpeg",
+    bio: "Guides students through visa documentation, interview preparation, and application processes to improve the chances of a successful visa outcome."
+  },
+  {
+    name: "Muhammad Umer",
+    role: "Admissions Specialist",
+    photo: "umer bhao=i.jpeg",
+    bio: "Specializes in university admissions and assists students in selecting suitable programs based on their academic background and career goals."
+  }
+];
 
 export default function About() {
   return (
@@ -72,11 +86,11 @@ export default function About() {
         </div>
 
         {/* Team */}
-        <div className="text-center mb-10">
+        <div className="text-center    mb-10">
           <div className="text-[#D4AF37] font-poppins font-semibold text-sm uppercase tracking-widest mb-3">The People Behind the Dream</div>
           <h2 className="section-title text-3xl">Meet Our Team</h2>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-16 justify-items-center ">
           {TEAM.map((member) => (
             <div key={member.name} className="text-center bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-lg card-hover">
               <img src={member.photo} alt={member.name} className="w-24 h-24 rounded-full object-cover mx-auto mb-4 border-4 border-[#D4AF37]/30" />
