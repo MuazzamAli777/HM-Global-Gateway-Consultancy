@@ -1,14 +1,40 @@
 import { useState } from "react"
-
+import emailjs from "@emailjs/browser"
 export default function Contact() {
   const [form, setForm] = useState({ name: "", email: "", phone: "", country: "", message: "" })
   const [submitted, setSubmitted] = useState(false)
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
+ const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault()
+
+  try {
+    await emailjs.send(
+      "service_kotzq89",
+      "template_szmb5vf",
+      {
+        name: form.name,
+        email: form.email,
+        phone: form.phone,
+        country: form.country,
+        message: form.message,
+      },
+      "NbYPKzYwVSHSaNQ-q"
+    )
+
     setSubmitted(true)
-    setForm({ name: "", email: "", phone: "", country: "", message: "" })
+
+    setForm({
+      name: "",
+      email: "",
+      phone: "",
+      country: "",
+      message: "",
+    })
+  } catch (error) {
+    console.error("EmailJS Error:", error)
+    alert("Failed to send your request. Please try again.")
   }
+}
 
   return (
     <div className="pt-20">
@@ -65,7 +91,7 @@ export default function Contact() {
                   <span className="text-xl">📞</span>
                   <span className="text-sm font-medium">Call: 0318 4695563</span>
                 </a>
-                <a href="mailto:info@hmglobalgateway.com" className="flex items-center gap-3 bg-white/10 rounded-xl p-3 hover:bg-white/20 transition-colors">
+                <a href="mailto:mozambhali521@gmail.com" className="flex items-center gap-3 bg-white/10 rounded-xl p-3 hover:bg-white/20 transition-colors">
                   <span className="text-xl">✉️</span>
                   <span className="text-sm font-medium">info@hmglobalgateway.com</span>
                 </a>
