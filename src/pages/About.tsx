@@ -4,19 +4,19 @@ const TEAM = [
   {
     name: "Muazzam Ali",
     role: "Founder & CEO",
-    photo: "profile-photo.png",
+    photo: "/profile-photo.png",
     bio: "Founder of HM Global Gateway with expertise in international student admissions, university applications, and visa guidance. Passionate about helping Pakistani students study abroad with transparent and reliable consultancy services."
   },
   {
     name: "Ali Haider",
     role: "Director",
-    photo: "haider.jpeg",
+    photo: "/haider.jpeg",
     bio: "Guides students through visa documentation, interview preparation, and application processes to improve the chances of a successful visa outcome."
   },
   {
     name: "Muhammad Umer",
     role: "Admissions Specialist",
-    photo: "umer bhao=i.jpeg",
+    photo: "/umer bhao=i.jpeg",
     bio: "Specializes in university admissions and assists students in selecting suitable programs based on their academic background and career goals."
   }
 ];
