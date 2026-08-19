@@ -53,9 +53,17 @@ export default function Contact() {
                   <span className="text-xl">💬</span>
                   <span className="text-sm font-medium">WhatsApp: 0342 0315743</span>
                 </a>
+                <a href="https://wa.me/923184695563" className="flex items-center gap-3 bg-[#25D366] rounded-xl p-3 hover:bg-[#1ebe5d] transition-colors">
+                  <span className="text-xl">💬</span>
+                  <span className="text-sm font-medium">WhatsApp: 0318 4695563</span>
+                </a>
                 <a href="tel:+923420315743" className="flex items-center gap-3 bg-white/10 rounded-xl p-3 hover:bg-white/20 transition-colors">
                   <span className="text-xl">📞</span>
                   <span className="text-sm font-medium">Call: 0342 0315743</span>
+                </a>
+                <a href="tel:+923184695563" className="flex items-center gap-3 bg-white/10 rounded-xl p-3 hover:bg-white/20 transition-colors">
+                  <span className="text-xl">📞</span>
+                  <span className="text-sm font-medium">Call: 0318 4695563</span>
                 </a>
                 <a href="mailto:info@hmglobalgateway.com" className="flex items-center gap-3 bg-white/10 rounded-xl p-3 hover:bg-white/20 transition-colors">
                   <span className="text-xl">✉️</span>
