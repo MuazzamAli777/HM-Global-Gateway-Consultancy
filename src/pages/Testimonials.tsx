@@ -3,11 +3,11 @@ import { Link } from "react-router-dom"
 
 const GALLERY = [
   "https://images.unsplash.com/photo-1627556704353-016baeb12c79?w=400&h=300&fit=crop",
-  "https://images.unsplash.com/photo-1484712401471-05c7215830eb?w=400&h=300&fit=crop",
-  "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=400&h=300&fit=crop",
-  "https://images.unsplash.com/photo-1577985043696-8bd54d9f093f?w=400&h=300&fit=crop",
-  "https://images.unsplash.com/photo-1564981797816-1043664bf78d?w=400&h=300&fit=crop",
-  "https://images.unsplash.com/photo-1625640776489-4186592c6f00?w=400&h=300&fit=crop",
+  "https://images.unsplash.com/photo-1627556704353-016baeb12c79?w=400&h=300&fit=crop",
+  "https://images.unsplash.com/photo-1627556704353-016baeb12c79?w=400&h=300&fit=crop",
+  "https://images.unsplash.com/photo-1627556704353-016baeb12c79?w=400&h=300&fit=crop",
+  "https://images.unsplash.com/photo-1627556704353-016baeb12c79?w=400&h=300&fit=crop",
+  "https://images.unsplash.com/photo-1627556704353-016baeb12c79?w=400&h=300&fit=crop",
 ]
 
 export default function Testimonials() {
