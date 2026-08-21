@@ -23,11 +23,11 @@ export default function Admin() {
 
   const login = (e: React.FormEvent) => {
     e.preventDefault()
-    if (creds.user === "admin" && creds.pass === "hmglobal2025") {
+    if (creds.user === "admin" && creds.pass === "mhglobal2025") {
       setAuth(true)
       setError("")
     } else {
-      setError("Invalid credentials. Try admin / hmglobal2025")
+      setError("Invalid credentials. Try admin / mhglobal2025")
     }
   }
 
@@ -36,9 +36,9 @@ export default function Admin() {
       <div className="min-h-screen bg-gray-50 flex items-center justify-center px-4 pt-20">
         <div className="bg-white rounded-2xl shadow-xl p-8 w-full max-w-md border border-gray-100">
           <div className="text-center mb-8">
-            <div className="w-16 h-16 rounded-full bg-[#D4AF37] flex items-center justify-center font-bold text-[#0B1F4D] text-xl font-poppins mx-auto mb-3">HM</div>
+            <div className="w-16 h-16 rounded-full bg-[#D4AF37] flex items-center justify-center font-bold text-[#0B1F4D] text-xl font-poppins mx-auto mb-3">MH</div>
             <h2 className="font-poppins font-bold text-2xl text-[#0B1F4D]">Admin Login</h2>
-            <p className="text-gray-400 text-sm mt-1">HM Global Gateway Admin Panel</p>
+            <p className="text-gray-400 text-sm mt-1">MH Gateway Consultancy Admin Panel</p>
           </div>
           <form onSubmit={login} className="space-y-4">
             <div>
@@ -65,7 +65,7 @@ export default function Admin() {
             {error && <p className="text-red-500 text-sm bg-red-50 rounded-xl px-4 py-2">{error}</p>}
             <button type="submit" className="btn-gold w-full py-3 rounded-xl">Sign In</button>
           </form>
-          <p className="text-center text-gray-400 text-xs mt-4">Demo: admin / hmglobal2025</p>
+          <p className="text-center text-gray-400 text-xs mt-4">Demo: admin / mhglobal2025</p>
         </div>
       </div>
     )
@@ -77,7 +77,7 @@ export default function Admin() {
       <div className="w-56 bg-[#0B1F4D] min-h-screen fixed top-20 left-0 z-40 flex flex-col pt-6 pb-4">
         <div className="px-4 mb-6">
           <div className="font-poppins font-bold text-white text-sm">Admin Panel</div>
-          <div className="text-[#D4AF37] text-xs">HM Global Gateway</div>
+          <div className="text-[#D4AF37] text-xs">MH Gateway Consultancy</div>
         </div>
         {SECTIONS.map((s) => (
           <button

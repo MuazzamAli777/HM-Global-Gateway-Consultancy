@@ -16,7 +16,7 @@ export default function FAQ() {
         <div className="max-w-4xl mx-auto text-center">
           <div className="text-[#D4AF37] font-poppins font-semibold text-sm uppercase tracking-widest mb-3">Help Center</div>
           <h1 className="font-poppins font-bold text-4xl sm:text-5xl mb-4">Frequently Asked Questions</h1>
-          <p className="text-white/75 text-lg max-w-2xl mx-auto">Find answers to the most common questions about studying abroad with HM Global Gateway.</p>
+          <p className="text-white/75 text-lg max-w-2xl mx-auto">Find answers to the most common questions about studying abroad with MH Gateway Consultancy.</p>
         </div>
       </div>
 

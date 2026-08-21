@@ -40,7 +40,7 @@ export default function FloatingButtons() {
 
       {/* Messenger */}
       <a
-        href="https://m.me/hmglobalgateway"
+        href="https://m.me/mhglobalgateway"
         target="_blank"
         rel="noopener noreferrer"
         className="w-12 h-12 rounded-full bg-[#0084FF] flex items-center justify-center shadow-lg hover:scale-110 transition-transform"

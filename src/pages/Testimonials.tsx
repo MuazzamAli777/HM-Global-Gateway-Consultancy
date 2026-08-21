@@ -65,7 +65,7 @@ export default function Testimonials() {
         {/* CTA */}
         <div className="text-center bg-gray-50 rounded-3xl p-12">
           <h2 className="section-title text-3xl mb-4">Be Our Next Success Story</h2>
-          <p className="text-gray-500 mb-8 max-w-xl mx-auto">Join hundreds of Pakistani students who trusted HM Global Gateway with their international education journey.</p>
+          <p className="text-gray-500 mb-8 max-w-xl mx-auto">Join hundreds of Pakistani students who trusted MH Gateway Consultancy with their international education journey.</p>
           <Link to="/contact" className="btn-gold px-8 py-4 rounded-full text-base inline-block">Start Your Journey</Link>
         </div>
       </div>

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 
 
-const logo = "/hm-global-logo.png"
+const logo = "/MH GATEWAY CONSULTANCY LOGO.jpeg"
 export default function Footer() {
   return (
     <footer className="bg-[#0B1F4D] text-white">
@@ -12,12 +12,12 @@ export default function Footer() {
             <div className="flex items-center gap-3 mb-4">
              <img
   src={logo}
-  alt="HM Global Gateway Consultancy"
+  alt="MH Gateway Consultancy"
   className="w-14 h-14 rounded-full object-cover border-2 border-[#D4AF37] shadow-lg"
 />
               <div>
   <h1 className="text-white text-2xl font-black leading-none">
-    HM <span className="text-[#D4AF37]">Global</span> Gateway
+    MH <span className="text-[#D4AF37]">Gateway</span>
   </h1>
 
 </div>
@@ -75,8 +75,8 @@ export default function Footer() {
               </li>
               <li className="flex gap-2">
                 <span>✉️</span>
-                <a href="mailto:info@hmglobalgateway.com" className="hover:text-[#D4AF37] transition-colors">
-                  info@hmglobalgateway.com
+                <a href="mailto:infohmglobalgateway@gmail.com" className="hover:text-[#D4AF37] transition-colors">
+                 infohmglobalgateway@gmail.com
                 </a>
               </li>
               <li className="flex gap-2">
@@ -89,7 +89,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-white/10 pt-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-white/50">
-          <p>© 2025 HM Global Gateway Consultancy. All rights reserved.</p>
+          <p>© 2025 MH Gateway Consultancy. All rights reserved.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-[#D4AF37] transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-[#D4AF37] transition-colors">Terms of Service</a>

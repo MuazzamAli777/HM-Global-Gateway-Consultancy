@@ -175,12 +175,12 @@ export const WHY_CHOOSE = [
 ];
 
 export const TESTIMONIALS = [
-  { name: "Ayesha Malik", country: "South Korea", university: "Keimyung University", rating: 5, text: "HM Global Gateway made my dream of studying in South Korea a reality. The entire process was smooth and transparent. I got a 50% scholarship!", photo: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&faces" },
+  { name: "Ayesha Malik", country: "South Korea", university: "Keimyung University", rating: 5, text: "MH Gateway Consultancy made my dream of studying in South Korea a reality. The entire process was smooth and transparent. I got a 50% scholarship!", photo: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&faces" },
   { name: "Muhammad Usman", country: "Germany", university: "TU Munich", rating: 5, text: "I couldn't believe studying in Germany was free! The team guided me through every step — from language prep to the visa. Absolutely professional!", photo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&faces" },
   { name: "Fatima Zahid", country: "UK", university: "University of Manchester", rating: 5, text: "Got my Chevening recommendation letter and full visa approval. The counselors are knowledgeable and supportive. Highly recommended!", photo: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&faces" },
-  { name: "Ali Hassan", country: "Cyprus", university: "Near East University", rating: 5, text: "Applied and got admitted with a scholarship in just 3 weeks. The visa process was handled perfectly. Thank you HM Global Gateway!", photo: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&faces" },
+  { name: "Ali Hassan", country: "Cyprus", university: "Near East University", rating: 5, text: "Applied and got admitted with a scholarship in just 3 weeks. The visa process was handled perfectly. Thank you MH Gateway Consultancy!", photo: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&faces" },
   { name: "Sana Butt", country: "Austria", university: "University of Vienna", rating: 5, text: "Very professional team. They helped me with SOP, visa documents, and even pre-departure guidance. Studying in Vienna is my dream come true!", photo: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop&faces" },
-  { name: "Bilal Ahmed", country: "Italy", university: "Politecnico di Milano", rating: 5, text: "Italy was affordable beyond my expectations. HM helped me find accommodation and even assisted with Italian language courses. Excellent service!", photo: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&faces" },
+  { name: "Bilal Ahmed", country: "Italy", university: "Politecnico di Milano", rating: 5, text: "Italy was affordable beyond my expectations. MH helped me find accommodation and even assisted with Italian language courses. Excellent service!", photo: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&faces" },
 ];
 
 export const BLOG_POSTS = [
@@ -195,7 +195,7 @@ export const BLOG_POSTS = [
 export const FAQS = [
   { q: "How do I start the study abroad process?", a: "Book a free consultation with our counselors. We'll evaluate your profile, suggest suitable countries and universities, and create a personalized roadmap.", category: "General" },
   { q: "What documents do I need for university applications?", a: "Typically: academic transcripts, English test scores (IELTS/TOEFL), SOP, LOR letters, passport copy, CV, and country-specific documents.", category: "Admissions" },
-  { q: "Can I apply for scholarships through HM Global Gateway?", a: "Absolutely! We identify eligible scholarships, prepare your scholarship application, and submit it on your behalf to maximize your chances.", category: "Scholarships" },
+  { q: "Can I apply for scholarships through MH Gateway Consultancy?", a: "Absolutely! We identify eligible scholarships, prepare your scholarship application, and submit it on your behalf to maximize your chances.", category: "Scholarships" },
   { q: "How long does the visa process take?", a: "Visa processing times vary: South Korea (2–4 weeks), Germany (4–8 weeks), UK (3 weeks), Italy (3–4 weeks), Cyprus (2–3 weeks), Austria (6–8 weeks).", category: "Visa" },
   { q: "Can I work part-time while studying abroad?", a: "Yes! Most countries allow 20 hrs/week during term time. Germany allows 120 full days/year. We'll brief you on exact rules for your destination.", category: "Work" },
   { q: "What is the IELTS requirement for most universities?", a: "Most universities require 5.5–6.5 IELTS overall. Some German universities accept 5.5, while top UK universities may require 6.5–7.0.", category: "Language" },

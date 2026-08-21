@@ -55,9 +55,9 @@ export default function Contact() {
             </div>
 
             {[
-              { icon: "📍", title: "Office Address", lines: ["HM Global Gateway Consultancy", "Narowal, Punjab, Pakistan"] },
+              { icon: "📍", title: "Office Address", lines: ["MH Gateway Consultancy", "Narowal, Punjab, Pakistan"] },
               { icon: "📞", title: "Phone Numbers", lines: ["0342 0315743", "0318 4695563"] },
-              { icon: "✉️", title: "Email Address", lines: ["info@hmglobalgateway.com"] },
+              { icon: "✉️", title: "Email Address", lines: ["infohmglobalgateway@gmail.com"] },
               { icon: "🕐", title: "Office Hours", lines: ["Monday – Saturday", "9:00 AM – 6:00 PM (PKT)"] },
             ].map((item) => (
               <div key={item.title} className="flex gap-4 bg-white rounded-2xl p-5 shadow-sm border border-gray-100">
@@ -91,9 +91,9 @@ export default function Contact() {
                   <span className="text-xl">📞</span>
                   <span className="text-sm font-medium">Call: 0318 4695563</span>
                 </a>
-                <a href="mailto:mozambhali521@gmail.com" className="flex items-center gap-3 bg-white/10 rounded-xl p-3 hover:bg-white/20 transition-colors">
+                <a href="mailto:infohmglobalgateway@gmail.com" className="flex items-center gap-3 bg-white/10 rounded-xl p-3 hover:bg-white/20 transition-colors">
                   <span className="text-xl">✉️</span>
-                  <span className="text-sm font-medium">info@hmglobalgateway.com</span>
+                  <span className="text-sm font-medium">infohmglobalgateway@gmail.com</span>
                 </a>
               </div>
             </div>
@@ -183,7 +183,7 @@ export default function Contact() {
         <div className="mt-10 rounded-2xl overflow-hidden shadow-sm border border-gray-100 h-64 bg-gray-100 flex items-center justify-center">
           <div className="text-center text-gray-500">
             <div className="text-4xl mb-2">📍</div>
-            <p className="font-poppins font-semibold text-[#0B1F4D]">HM Global Gateway Consultancy</p>
+            <p className="font-poppins font-semibold text-[#0B1F4D]">MH Gateway Consultancy</p>
             <p className="text-sm">Narowal, Punjab, Pakistan</p>
             <a
               href="https://maps.google.com/?q=Narowal,Punjab,Pakistan"

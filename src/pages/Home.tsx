@@ -204,7 +204,7 @@ export default function Home() {
       <section className="py-20 navy-gradient text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <AnimSection className="text-center mb-12">
-            <div className="text-[#D4AF37] font-poppins font-semibold text-sm uppercase tracking-widest mb-2">Why HM Global Gateway</div>
+            <div className="text-[#D4AF37] font-poppins font-semibold text-sm uppercase tracking-widest mb-2">Why MH Gateway</div>
             <h2 className="font-poppins font-bold text-3xl sm:text-4xl text-white mb-4">Why Choose Us?</h2>
             <p className="text-white/70 max-w-xl mx-auto">We are not just consultants — we are your partners in building a global future.</p>
           </AnimSection>

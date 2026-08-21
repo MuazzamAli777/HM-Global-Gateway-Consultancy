@@ -5,7 +5,7 @@ const TEAM = [
     name: "Muazzam Ali",
     role: "Founder & CEO",
     photo: "/profile-photo.png",
-    bio: "Founder of HM Global Gateway with expertise in international student admissions, university applications, and visa guidance. Passionate about helping Pakistani students study abroad with transparent and reliable consultancy services."
+    bio: "Founder of MH Gateway Consultancy with expertise in international student admissions, university applications, and visa guidance. Passionate about helping Pakistani students study abroad with transparent and reliable consultancy services."
   },
   {
     name: "Ali Haider",
@@ -30,7 +30,7 @@ export default function About() {
         <div className="absolute inset-0 opacity-10" style={{ backgroundImage: "radial-gradient(circle at 30% 50%, #D4AF37 0%, transparent 60%)" }} />
         <div className="relative max-w-4xl mx-auto text-center text-white">
           <div className="text-[#D4AF37] font-poppins font-semibold text-sm uppercase tracking-widest mb-3">Who We Are</div>
-          <h1 className="font-poppins font-bold text-4xl sm:text-5xl mb-4">About HM Global Gateway</h1>
+          <h1 className="font-poppins font-bold text-4xl sm:text-5xl mb-4">About MH Gateway Consultancy</h1>
           <p className="text-white/75 text-lg max-w-2xl mx-auto">Pakistan's most trusted study abroad consultancy, dedicated to turning international education dreams into reality.</p>
         </div>
       </div>
@@ -56,8 +56,8 @@ export default function About() {
           <div>
             <div className="text-[#D4AF37] font-poppins font-semibold text-sm uppercase tracking-widest mb-3">Our Story</div>
             <h2 className="section-title text-3xl mb-4">From a Dream to a Gateway</h2>
-            <p className="text-gray-600 mb-4 leading-relaxed">HM Global Gateway Consultancy was founded in Narowal, Punjab, with one vision: to make world-class international education accessible to every deserving Pakistani student, regardless of financial background.</p>
-            <p className="text-gray-600 mb-4 leading-relaxed">Our founder, having personally experienced the challenges of studying abroad, built HM Global Gateway to ensure no student faces those hurdles alone. Today, we have placed 500+ students across South Korea, Germany, UK, Italy, Cyprus, and Austria.</p>
+            <p className="text-gray-600 mb-4 leading-relaxed">MH Gateway Consultancy was founded in Narowal, Punjab, with one vision: to make world-class international education accessible to every deserving Pakistani student, regardless of financial background.</p>
+            <p className="text-gray-600 mb-4 leading-relaxed">Our founder, having personally experienced the challenges of studying abroad, built MH Gateway Consultancy to ensure no student faces those hurdles alone. Today, we have placed 500+ students across South Korea, Germany, UK, Italy, Cyprus, and Austria.</p>
             <p className="text-gray-600 leading-relaxed">We maintain a 95%+ visa success rate, have secured millions in scholarships for our students, and continue to be the most trusted name in study abroad consultancy in Punjab.</p>
           </div>
           <div className="relative">
@@ -95,7 +95,7 @@ export default function About() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-16 justify-items-center ">
           {TEAM.map((member) => (
             <div key={member.name} className="text-center bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-lg card-hover">
-              <img src={member.photo} alt={`${member.name}, ${member.role} at HM Global Gateway`} loading="lazy" decoding="async" className="w-24 h-24 rounded-full object-cover mx-auto mb-4 border-4 border-[#D4AF37]/30" />
+              <img src={member.photo} alt={`${member.name}, ${member.role} at MH Gateway Consultancy`} loading="lazy" decoding="async" className="w-24 h-24 rounded-full object-cover mx-auto mb-4 border-4 border-[#D4AF37]/30" />
               <h3 className="font-poppins font-bold text-[#0B1F4D] mb-1">{member.name}</h3>
               <p className="text-[#D4AF37] text-xs font-poppins font-semibold mb-3">{member.role}</p>
               <p className="text-gray-500 text-xs leading-relaxed">{member.bio}</p>
@@ -106,7 +106,7 @@ export default function About() {
         {/* CTA */}
         <div className="text-center bg-gray-50 rounded-3xl p-12">
           <h2 className="section-title text-3xl mb-4">Ready to Start Your Journey?</h2>
-          <p className="text-gray-500 mb-8 max-w-xl mx-auto">Join 500+ students who have trusted HM Global Gateway with their international education dreams.</p>
+          <p className="text-gray-500 mb-8 max-w-xl mx-auto">Join 500+ students who have trusted MH Gateway Consultancy with their international education dreams.</p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Link to="/contact" className="btn-gold px-8 py-4 rounded-full text-base inline-block">Book Free Consultation</Link>
             <Link to="/countries" className="btn-navy px-8 py-4 rounded-full text-base inline-block">Explore Countries</Link>

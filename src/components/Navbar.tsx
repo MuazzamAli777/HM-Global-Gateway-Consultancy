@@ -4,7 +4,7 @@ import { Link, useLocation } from "react-router-dom"
 
 
 
-const logo = "/hm-global-logo.png"
+const logo = "/MH GATEWAY CONSULTANCY LOGO.jpeg"
 
 const NAV_LINKS = [
   
@@ -47,11 +47,11 @@ export default function Navbar() {
           <div className="flex items-center gap-3 group">
             <img
   src={logo}
-  alt="HM Global Gateway Consultancy"
+  alt="MH Gateway Consultancy"
   className="w-14 h-14 rounded-full object-cover border-2 border-[#D4AF37] shadow-lg"
 />
             <div>
-              <div className="text-white font-bold text-sm leading-tight font-poppins">HM <span className="text-[#D4AF37]">GLOBAL</span><br /> Gateway</div>
+              <div className="text-white font-bold text-sm leading-tight font-poppins">MH <span className="text-[#D4AF37]">Gateway</span></div>
               <div className="text-[#D4AF37] text-xs font-inter">Consultancy</div>
             </div>
           </div>
