@@ -75,8 +75,8 @@ export default function Footer() {
               </li>
               <li className="flex gap-2">
                 <span>✉️</span>
-                <a href="mailto:infohmglobalgateway@gmail.com" className="hover:text-[#D4AF37] transition-colors">
-                 infohmglobalgateway@gmail.com
+                <a href="mailto:mhgatewayconsultancy@gmail.com" className="hover:text-[#D4AF37] transition-colors">
+                 mhgatewayconsultancy@gmail.com
                 </a>
               </li>
               <li className="flex gap-2">
