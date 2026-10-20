@@ -57,7 +57,7 @@ export default function Contact() {
             {[
               { icon: "📍", title: "Office Address", lines: ["MH Gateway Consultancy", "Narowal, Punjab, Pakistan"] },
               { icon: "📞", title: "Phone Numbers", lines: ["0342 0315743", "0318 4695563"] },
-              { icon: "✉️", title: "Email Address", lines: ["infohmglobalgateway@gmail.com"] },
+              { icon: "✉️", title: "Email Address", lines: ["mhgatewayconsultancy@gmail.com"] },
               { icon: "🕐", title: "Office Hours", lines: ["Monday – Saturday", "9:00 AM – 6:00 PM (PKT)"] },
             ].map((item) => (
               <div key={item.title} className="flex gap-4 bg-white rounded-2xl p-5 shadow-sm border border-gray-100">
@@ -91,9 +91,9 @@ export default function Contact() {
                   <span className="text-xl">📞</span>
                   <span className="text-sm font-medium">Call: 0318 4695563</span>
                 </a>
-                <a href="mailto:infohmglobalgateway@gmail.com" className="flex items-center gap-3 bg-white/10 rounded-xl p-3 hover:bg-white/20 transition-colors">
+                <a href="mailto:mhgatewayconsultancy@gmail.com" className="flex items-center gap-3 bg-white/10 rounded-xl p-3 hover:bg-white/20 transition-colors">
                   <span className="text-xl">✉️</span>
-                  <span className="text-sm font-medium">infohmglobalgateway@gmail.com</span>
+                  <span className="text-sm font-medium">mhgatewayconsultancy@gmail.com</span>
                 </a>
               </div>
             </div>
