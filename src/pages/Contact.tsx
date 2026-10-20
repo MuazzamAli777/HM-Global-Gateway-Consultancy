@@ -186,7 +186,7 @@ export default function Contact() {
             <p className="font-poppins font-semibold text-[#0B1F4D]">MH Gateway Consultancy</p>
             <p className="text-sm">Narowal, Punjab, Pakistan</p>
             <a
-              href="https://maps.google.com/?q=Narowal,Punjab,Pakistan"
+              href="https://maps.app.goo.gl/Wrgz5ZUX3F7Xdq4B8"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-gold inline-block mt-3 px-5 py-2 rounded-full text-xs"
