@@ -55,7 +55,7 @@ export default function Contact() {
             </div>
 
             {[
-              { icon: "📍", title: "Office Address", lines: ["MH Gateway Consultancy", "Narowal, Punjab, Pakistan"] },
+              { icon: "📍", title: "Office Address", lines: ["MH Gateway Consultancy", "Near Al-Shifa College Narowal, Punjab, Pakistan"] },
               { icon: "📞", title: "Phone Numbers", lines: ["0342 0315743", "0318 4695563"] },
               { icon: "✉️", title: "Email Address", lines: ["mhgatewayconsultancy@gmail.com"] },
               { icon: "🕐", title: "Office Hours", lines: ["Monday – Saturday", "9:00 AM – 6:00 PM (PKT)"] },
