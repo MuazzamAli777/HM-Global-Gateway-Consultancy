@@ -91,9 +91,9 @@ export default function Contact() {
                   <span className="text-xl">📞</span>
                   <span className="text-sm font-medium">Call: 0318 4695563</span>
                 </a>
-                <a href="mailto:mhgatewayconsultancy@gmail.com" className="flex items-center gap-3 bg-white/10 rounded-xl p-3 hover:bg-white/20 transition-colors">
+                <a href="mailto:infohmglobalgateway@gmail.com" className="flex items-center gap-3 bg-white/10 rounded-xl p-3 hover:bg-white/20 transition-colors">
                   <span className="text-xl">✉️</span>
-                  <span className="text-sm font-medium">mhgatewayconsultancy@gmail.com</span>
+                  <span className="text-sm font-medium">infohmglobalgateway@gmail.com</span>
                 </a>
               </div>
             </div>
